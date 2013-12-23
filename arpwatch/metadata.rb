@@ -4,7 +4,7 @@ maintainer_email 'keeganh@aweber.com'
 license          'BSD 3 clause'
 description      'Installs arpwatch from package'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.0'
+version          '0.1.1'
 supports          'ubuntu'
 supports          'debian'
 
