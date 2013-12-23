@@ -34,4 +34,5 @@ service 'arpwatch' do
     action :stop
   end
   supports :status => false, :restart => true, :reload => false
+  provider Chef::Provider::Service::Init::Debian
 end
