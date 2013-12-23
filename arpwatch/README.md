@@ -7,6 +7,7 @@ Platform
 Debian, Ubuntu
 
 = ATTRIBUTES:
+```
 attribute 'arpwatch/data_dir',
   :display_name => 'arpwatch location for arpwatch datafiles',
   :default => ['/var/lib/arpwatch/'],
@@ -72,6 +73,6 @@ attribute 'arpwatch/interfaces/<interface>/boounce_wait',
   :default => ['10'],
   :type => 'string',
   :required => 'optional'
-
+```
 = USAGE:
 
